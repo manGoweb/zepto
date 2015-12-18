@@ -2,9 +2,11 @@
     "name": "zepto"
   , "version": "1.1.6"
   , "homepage": "http://zeptojs.com"
+  , "main": "dist/zepto.js"
   , "scripts": {
       "test": "coffee make test"
     , "dist": "coffee make dist"
+    , "install": "node node_modules/coffee-script/bin/coffee make dist"
     , "start": "coffee test/server.coffee"
   }
   , "repository": "madrobby/zepto"
